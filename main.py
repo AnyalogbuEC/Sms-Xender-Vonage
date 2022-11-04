@@ -14,11 +14,11 @@ print("         ||  ||          ||           ||       //          \\\\   ||     
 print("|||||||||||  ||          ||  |||||||||||      //            \\\\  ||          ||")
 print("~~~~~~~~~~~~~AnyalogbuEC~~~~~~~~~~~~~~~~         ~~~~~~~~~~~~Vonage API~~~~~~~~~~~~\n\n")
 
-key = "d22b8f62"  # input("Enter key: ")  # setting key
+key = input("Enter key: ")  # setting key
 
-secret = "g0z3HlDpnQe8NPEG"  # input("Enter secret: ")  # setting secret
+secret = input("Enter secret: ")  # setting secret
 
-sender = "Vonage"  # input("Enter Sender's name: ")  # setting sender's name
+sender = input("Enter Sender's name: ")  # setting sender's name
 
 successful = []  # list of phone numbers of the successfully sent sms
 
